@@ -1,0 +1,19 @@
+:root{
+	--bgcolor: #219C90;
+	--blue: #39A7FF;
+	--black: #1F1717;
+	--white: #f4f7ff;
+	--gray: #d8dce4;
+	--lightgray: #8e9095;
+}
+
+*{
+	margin: 0px; /*зовнішній відступ*/
+	padding: 0px; /*внутрішній відступ*/
+	box-sizing: border-box;
+	font-family: monospace; /*стилі для шрифту*/
+}
+
+body{
+	background: var(--bgcolor);
+}
